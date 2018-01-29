@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tutorial 1 - Positions and Backgrounds</title>
+        <style>
+            #myBG {
+                position: fixed;
+                left: 0px;
+                top: 0px;
+                width: 100vw;
+                height: 100vh;
+                object-fit: cover;
+                object-position: center;
+            }
+            
+            #controls {
+                position: absolute;
+                left: 0px;
+                top: 15vh;
+            }
+            
+            #img1 {
+                background-image: url(img/lixyO.png);
+            }
+            
+            #img2 {
+                background-image: url(img/gumiLurk.png);
+                left: 30px;
+            }
+            
+            #img3 {
+                background-image: url(img/kimiWat.png);
+                left: 30px;
+            }
+            
+            #img4 {
+                background-image: url(img/gumiPoodi.png);
+            }
+            
+            .thumbnails {
+                width: 75px;
+                height: 75px;
+                background-color: aqua;
+                position: relative;
+                margin: 30px;
+                background-size: cover;
+                background-position: center;
+                opacity: 0.5;
+                border-radius: 75px;
+                border: 2px solid #FFF;
+                transition: opacity 1s;
+            }
+            
+            .thumbnails:hover {
+                opacity: 1;
+            }
+        </style>
+    </head>
+
+    <body>
+        
+        <video id="myBG" autoplay loop>
+            <source src="img/bg.mp4" />
+        </video>
+        
+        <div id="controls">
+            <div id="img1" class="thumbnails"></div>
+            <div id="img2" class="thumbnails"></div>
+            <div id="img3" class="thumbnails"></div>
+            <div id="img4" class="thumbnails"></div>
+        </div>
+    
+    </body>
+
+</html>
