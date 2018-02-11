@@ -1,0 +1,26 @@
+#menu {
+    position: fixed;
+    left: -110px;
+    top: 50px;
+    width: 100px;
+    padding: 5px;
+    background-color: lavender;
+}
+
+#makebg, #reset, #hideapp, #showapp {
+    width: 100%;
+}
+
+#openapp, #closeapp {
+    position: absolute;
+    width: 50px;
+    right: -50px;
+}
+
+#openapp {
+    top: 0px;
+}
+
+#closeapp {
+    bottom: 0px;
+}
