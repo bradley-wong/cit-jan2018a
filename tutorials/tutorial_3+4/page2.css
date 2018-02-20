@@ -1,0 +1,27 @@
+#menu {
+    border-bottom: 1px solid #CCC;
+    padding: 5px;
+    text-align: right;
+}
+
+#display {
+    width: 70vw;
+    height: 300px;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+}
+
+#preview {
+    width: 100%;
+    height: 70%;
+}
+
+#controls {
+    width: 100%;
+    height: 30%;
+    text-align: center;
+}
