@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Assessment 2 - Avatar creator</title>
+    <!-- Bradley Wong A00952188 Set1A -->
+    <link href="preview.css" type="text/css" rel="stylesheet" />
+    <link href="controls.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  </head>
+  
+  <body>
+    <div id="preview">
+      <img id="hair" class="items" src="img/hair1.png" />
+      <img id="eyes" class="items" src="img/eyes1.png" />
+      <img id="nose" class="items" src="img/nose1.png" />
+      <img id="mouth" class="items" src="img/mouth1.png" />
+    </div>
+    
+    <div id="controls">
+      <input id="r1" type="range" min=0 max=70 value=60/>
+      <input id="r2" type="range" min=0 max=40 value=20/>
+      <input id="r3" type="range" min=0 max=30 value=20/>
+      <input id="r4" type="range" min=0 max=35 value=20/>
+      <input id="cchange" type="color" />
+      <br/>
+      <button id="rangeB">Range</button>
+      <button id="numB">Number</button>
+      <button id="randomB">Random</button>
+      <button id="increaseB">+</button>
+      |
+      <button id="startB">Auto Random Create</button>
+      <button id="stopB">Stop Auto Create</button>
+    </div>
+    
+    <div class="container-fluid">
+      <div class="row">
+          <div id="display" class="col-sm-4 col-md-6 col-lg-8 col-xl-12">
+          
+          </div>
+          
+      </div>
+    </div>  
+      
+    <script src="preview.js"></script>
+    <script src="controls.js"></script>
+  </body>
+</html>

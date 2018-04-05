@@ -1,0 +1,22 @@
+input {
+    width: 5%
+}
+
+#numB {
+    background-color: black;
+    color: white;
+}
+
+#randomB {
+    background-color: pink;
+}
+
+#increaseB {
+    background-color: darkgrey;
+}
+
+#savedDiv {
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
